@@ -16,6 +16,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="transponder_device.ino" />
+    <None Include="transponder_desc.hid" />
   </ItemGroup>
- 
+  <ItemGroup>
+    <ClInclude Include="transponder_desc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
